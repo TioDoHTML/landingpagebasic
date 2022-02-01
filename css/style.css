@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex {display: flex;}
+.flex-center-xy{ justify-content: center; align-items: center;}
+.flex-align { align-items: center;}
+.flex-column {flex-direction: column;}
+
+main {
+    width: 800px;
+    height: 600px;
+}
+
+section, figure {
+    width: 100%;
+    height: 100%;
+}
+
+section { position: relative;}
+
+figure img {
+    width: 100%;
+}
+
+#content-form{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    padding: 5px;
+    right: 0;
+}
+
+.txtBox {
+    width: 100%;
+    height: 45px;
+    margin-top:8px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 38px;
+    color:#fff;
+    width: 100%;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #00796B;
+}
+ h1, span.dica {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.dica {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#btn-enviar {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    border:none;
+    cursor:pointer;
+    background-color: #aa00ff;
+    font-size:20px;
+    color: #fff;
+}
